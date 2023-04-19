@@ -340,6 +340,7 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/BulletController.cs"
 "Assets/Scripts/EnemyController.cs"
+"Assets/Scripts/EnemySpawner.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 
