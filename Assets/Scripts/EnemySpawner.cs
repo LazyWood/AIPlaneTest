@@ -43,12 +43,12 @@ public class EnemySpawner : MonoBehaviour
 
     private IEnumerator DestroyIfOffScreen(GameObject enemy)
     {
-        while (true)
+        while (enemy!=null)
         {
             // 如果敌机位置超出屏幕范围，则销毁敌机
             Vector3 screenPoint = Camera.main.WorldToViewportPoint(enemy.transform.position);
             if (screenPoint.y < 0)
-            {
+            {  
                 Destroy(enemy);
                 break;
             }

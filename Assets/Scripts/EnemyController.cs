@@ -42,7 +42,13 @@ public class EnemyController : MonoBehaviour
             {
                 bulletController.speed = bulletSpeed;
                 bulletController.direction = Vector2.down;
+                bulletController.SetBulletType(false); // 设置为敌机子弹
             }
         }
+    }
+
+    void OnTriggerEnter2D(Collider2D other) { 
+    
+    
     }
 }
